@@ -28,5 +28,17 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagemenet>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Release</name>
+            <url>http://100.25.12.84:8081/repository/SAMPLE-RELEASE/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal snapshot releases</name>
+            <url>http://100.25.12.84:8081/repository/SAMPLE-SNAPSHOT/</url>
+        </snapshotRepository>
+    </distributionManagemenet>
 </project>
 
